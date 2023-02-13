@@ -7,7 +7,7 @@ pipeline {
                                 sudo apt install -y python3
                                 sudo apt install python3-pip -y
                                 sudo pip install flask
-                                flask run
+                                nohup python app.py > /dev/null 2>&1 &
                                 '''
                         }
                 }
