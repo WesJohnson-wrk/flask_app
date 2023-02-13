@@ -1,7 +1,7 @@
 
 pipeline {
   agent {
-    label 'target'
+    label 'flask'
   }
   stages {
     stage('update flask') {
