@@ -1,5 +1,5 @@
 pipeline {
-        agent { label 'flask[' }
+        agent { label 'flask' }
         stages {
                 stage('update flask') {
                         steps {
